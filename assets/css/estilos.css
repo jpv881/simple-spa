@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo:400i');
+
+#fullpage .section:nth-child(1){
+    background-image: url("../img/car.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#fullpage .section:nth-child(2){
+    background-color: black !important;
+}
+
+#menu{
+    color:white;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    z-index: 70;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    letter-spacing: 1px;
+    font-size: 1.1em;
+    margin-top: 0px;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#menu li {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.menu-active {
+    font-weight: 700;
+}
+
+#menu a {
+    color:white;
+    font-size: 2em;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+#sectionOne h1{
+    font-size: 10em;
+    font-weight: 900;
+    color: #fff;
+}
+
+#sectionOne {
+    text-align:center;
+}
+
+#fp-nav span {
+    background-color: white !important;
+}
+
+div.fp-prev{
+    left: 100px !important;
+}
+
+div.fp-next{
+    right: 100px !important;
+}
+
+.slide img {
+    width: 100%;
+}
+
+#trabajos {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    color: white;
+    text-align: center;
+    width: 100vw;
+    font-size: 8em;
+    font-weight: bold;
+    text-shadow: 1.5px 1.5px black;
+    font-family: arial,helvetica;
+}
+
+#mapSection {
+    background-color: black;
+    background-image: url("../icons/car.gif");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#mapSection div:nth-child(1){
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%,0);
+    width: 90%;
+    height: 33%;
+}
+
+#mapSection div:nth-child(2){
+    position: absolute;
+    bottom: 10px;
+    height: 60px;
+    width: 100%;
+    color: white;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
